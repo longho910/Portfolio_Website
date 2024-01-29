@@ -1,1 +1,2 @@
-This is my portfolio website using vanilla HTML, CSS, and JavaScript!
+- This is my portfolio website using vanilla HTML, CSS, and JavaScript!
+- Here is the website I've deployed: https://peterho.tech/
