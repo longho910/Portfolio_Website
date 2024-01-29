@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4f9955ac9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="resume-header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="lg">
+                    <h2 id="P">P</h2><h2 id="eter">eter</h2><h2 id="dot">.</h2>
+                </a>
+                
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <div class="h1 resume">
+        <h1>Resume</h1>
+    </div>
+
+    <div id="resume">
+        <div class="section education-section">
+            <h2>Education</h2>
+            <hr>
+            <div class="header">
+                <h3>Texas Christian University</h3>
+                <h3 class="date">2021-2025 <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-education" data-target="#education-info"></i>
+                </h3>
+            </div>
+            
+            <div id="education-info" class="info">
+                <div class="row">
+                    <div class="info-column">
+                        <p><em>Bachelor of Science in Computer Science</em></p>
+                    </div>
+                    <div class="info-column">
+                        <p>GPA: 3.8/4.0</p>
+                    </div>
+                </div>
+                <div class="text-info">
+                    <ul>
+                        <li style="line-height: 1.5;"><b>Course Completed:</b> Web Technologies, Data Structures, Analysis of Algorithm, Database System Fundamentals, Computer System Fundamentals, Computer Organization, Programming Language Concepts, Linux/Unix Fundamentals, Networking. 
+                        </li>
+                        <li>TCU Dean’s Honor List (2021 - now) and TCU Scholar’s List (Fall 2021)</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section experience-section">
+            <h2>Experience</h2>
+            <hr>
+            <div class="header">
+                <h3>FPT Software</h3>
+                <h3 class="date">05/2023-08/2023 <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-experience-1" data-target="#experience-info-1"></i>
+                </h3>
+            </div>
+            <div id="experience-info-1" class="info">
+                <div class="row">
+                    <div class="info-column">
+                        <p><em>Software Engineer Intern</em></p>
+                    </div>
+                    <div class="info-column">
+                        <p>Ho Chi Minh City, Vietnam</p>
+                    </div>
+                </div>
+                <div class="text-info">
+                    <ul>
+                        <li>Developed an enterprise-level application using Spring Boot, leading to a 25% faster recruitment process.
+                        </li>
+                        <li>Boosted FPT's recruitment efficiency by 40% by digitizing candidate screening and automated interview scheduling.
+                        </li>
+                        <li>Provided 15 APIs for front-end teams, resulting in a 30% improvement in collaborative development.
+                        </li>
+                        <li>Pioneered LinkedIn-inspired functionalities, increasing candidate engagement by 35%.
+                        </li>
+                        <li style="line-height:1.5;">Utilized technologies: Microservice | Spring Boot | Spring Data JPA | Spring Cloud (Netflix Eureka, Gateway, OpenFeign, LoadBalancer, Bus, Sleuth) | Docker | Kubernetes | Git | Maven | RestTemplate | WebClient | Kafka | RabbitMQ | Okhttp | Azure | Zipkin | Resilience4J (Circuit Breaker, Retry, and RateLimiter Patterns).</li>
+
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="header">
+                <h3>Texas Christian University</h3>
+                <h3 class="date">12/2022-05/2023 <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-experience-2" data-target="#experience-info-2"></i>
+                </h3>
+            </div>
+            <div id="experience-info-2" class="info">
+                <div class="row">
+                    <div class="info-column">
+                        <p><em>CS Tutor/Desk Assistant</em></p>
+                    </div>
+                    <div class="info-column">
+                        <p>Fort Worth, TX</p>
+                    </div>
+                </div>
+                <div class="text-info">
+                    <ul>
+                        <li>Improved the academic performance of over 100 CS students by 20%.</li>
+                        <li>Offered specialized tutoring, raising course pass rates by 15%.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="section skill-section">
+            <h2>Skills</h2>
+            <hr>
+            <!-- skill 1 -->
+            <div class="header">
+                <h3>Languages</h3>
+                <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-skill-1" data-target="#skill-info-1"></i>
+                </h3>
+            </div>
+            
+            <div id="skill-info-1" class="info">
+                <div class="text-info">
+                    <ul>
+                        <li>Java, JavaScript, TypeScript, C/C++, Python, HTML/CSS</li>   
+                    </ul>
+                </div>
+            </div>
+            <!-- skill 2 -->
+            <div class="header">
+                <h3>Framework</h3>
+                <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-skill-2" data-target="#skill-info-2"></i>
+                </h3>
+            </div>
+            
+            <div id="skill-info-2" class="info">
+                <div class="text-info">
+                    <ul>
+                        <li>Node.js, Express, Spring Framework, Flask, React, jQuery</li>   
+                    </ul>
+                </div>
+            </div>
+            <!-- skill 3 -->
+            <div class="header">
+                <h3>Databases</h3>
+                <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-skill-3" data-target="#skill-info-3"></i>
+                </h3>
+            </div>
+            
+            <div id="skill-info-3" class="info">
+                <div class="text-info">
+                    <ul>
+                        <li>MongoDB, SQL, NoSQL</li>   
+                    </ul>
+                </div>
+            </div>
+            <!-- skill 4 -->
+            <div class="header">
+                <h3>Cloud &amp; DevOps</h3>
+                <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-skill-4" data-target="#skill-info-4"></i>
+                </h3>
+            </div>
+            
+            <div id="skill-info-4" class="info">
+                <div class="text-info">
+                    <ul>
+                        <li>Azure, AWS, CI/CD, Kubernetes, Docker
+                        </li>   
+                    </ul>
+                </div>
+            </div>
+            <!-- skill 5 -->
+            <div class="header">
+                <h3>Others</h3>
+                <i class="fa-solid fa-chevron-down toggleIcon" id="toggleIcon-skill-5" data-target="#skill-info-5"></i>
+                </h3>
+            </div>
+            
+            <div id="skill-info-5" class="info">
+                <div class="text-info">
+                    <ul>
+                        <li>Git/GitHub, REST API, RestTemplate, WebClient, Kafka, RabbitMQ</li>   
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+
+    <footer>
+        &#169; 2024 Peter Ho
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

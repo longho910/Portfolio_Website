@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4f9955ac9a.js" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="lg">
+                    <h2 id="P">P</h2><h2 id="eter">eter</h2><h2 id="dot">.</h2>
+                </a>
+                
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>A Software Engineer</p>
+                <h1>Hi, I'm <span>Peter Ho</span></h1>
+                <a href="#about" class="about-me-button">About Me</a>
+            </div>
+        </div>
+    </div>
+        <!-- ABOUT -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_2671.png" alt="About me picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-me-paragraph">
+                        I'm currently a junior majoring in Computer Science at Texas Christian University. My enthusiasm lies in the development and maintenance of software. My expertise includes working with Spring Boot, Node.js, React.js, Next.js, TypeScript, and Java, among other technologies. Additionally, I'm keen on contributing to open-source projects through collaboration.                        
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education',event)">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id='skills'>
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Backend / Frontend</li>
+                            <li><span>DevOps</span><br>CI/CD / Testing / Automation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id='experience'>
+                        <ul>
+                            <li><span>05/2023-08/2023</span><br>Software Engineer Intern @ FPT Software</li>
+                            <li><span>12/2022-05/2023</span><br>CS Department Assistant @ Texas Christian University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id='education'>
+                        <ul>
+                            <li><span>2021-2025</span><br>Bachelor of Science Computer Science @ Texas Christian University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &#169; 2024 Peter Ho
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

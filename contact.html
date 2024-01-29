@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4f9955ac9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="contact-header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="lg">
+                    <h2 id="P">P</h2><h2 id="eter">eter</h2><h2 id="dot">.</h2>
+                </a>
+                
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <div class="h1 contact">
+        <h1>Contact</h1>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-paper-plane"></i> long.ho12021@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 817-647-7061</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/long-ho-54aba41b8/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/longho910" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto: long.ho12021@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/peteho910/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/quanglong.ho.1/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/PeterHo_Resume.pdf" download="" class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+                        
+                        <span id="msg"></span>
+
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &#169; 2024 Peter Ho
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4f9955ac9a.js" crossorigin="anonymous"></script>
+</head>
+<body>  
+    <div id="portfolio-header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="lg">
+                    <h2 id="P">P</h2><h2 id="eter">eter</h2><h2 id="dot">.</h2>
+                </a>
+                
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <div class="h1 portfolio">
+        <h1>Portfolio</h1>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="portfolio-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Marble-e-commerce Web Application</h3>
+                        <p>Developed a comprehensive full-stack ecommerce application leveraging Spring Boot and a suite of Spring technologies.</p>
+                        <a href="https://github.com/longho910/MarbleEcommerce" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Nimo-Full Stack Ecommerce Application</h3>
+                        <p> Developed a complex, scalable application using an event-based architecture and microservices, providing over 30 APIs for 
+                            creating a comprehensive user experience using ReactJS and Next.js.
+                            </p>
+                        <a href="https://github.com/longho910/NimoEcommerce" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Nimo-Full Stack Ecommerce Application</h3>
+                        <p>Developed a comprehensive full-stack ecommerce application leveraging Spring Boot and a suite of Spring technologies.</p>
+                        <a href="https://github.com/longho910/MarbleEcommerce"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/longho910" target="_blank" class="btn">See More</a>
+
+        </div>
+    </div>
+
+    <footer>
+        &#169; 2024 Peter Ho
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
